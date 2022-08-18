@@ -2,12 +2,16 @@
   box-sizing: border-box;
 }
 #btns div {
-  height: 4rem;
+  height: 3rem;
   font-size: 2rem;
   border-radius: 5px;
+  box-shadow: none;
+}
+#btns div:hover {
+  box-shadow: #fffefe 2px 2px 0px 0px;
 }
 #clac {
-  width: 30rem;
+  width: 18rem;
   background-color: black;
   border-radius: 5px;
   color: white;
@@ -20,13 +24,13 @@
 }
 #clac::after {
   position: absolute;
-  content: "V1.00";
+  content: "V1.10";
   top: 95%;
   right: 1%;
 }
 #screen {
   width: 100%;
-  height: 3rem;
+  height: 3.5rem;
   background-color: white;
   color: black;
   border-radius: 5px;

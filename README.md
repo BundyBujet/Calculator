@@ -14,6 +14,26 @@ What did I Learn?
 
 [4] - Type Casting.
 
-it was challanging But I learned alot.
+it was challenging But I learned a lot.
+
+note: this is a linear calculator I'm still working on this project in pair with my learning journey.
+
+---
+
+1.00v:
+
+1-simple one operation calculator
+
+---
+
+1.10v:
+
+1- fixed some bugs
+
+2- added multi calc
+
+3- add some styling
+
+---
 
 link to Live Demo : https://bundybujet.github.io/Calculator/
