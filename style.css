@@ -11,7 +11,7 @@
   box-shadow: #fffefe 2px 2px 0px 0px;
 }
 #clac {
-  width: 18rem;
+  width: -moz-a;
   background-color: black;
   border-radius: 5px;
   color: white;
@@ -21,12 +21,18 @@
   flex-wrap: nowrap;
   padding: 2rem;
   position: relative;
+  max-width: 25%;
 }
 #clac::after {
   position: absolute;
-  content: "V1.10";
+  content: "V1.20";
   top: 95%;
   right: 1%;
+}
+@media (max-width: 768px) {
+  #clac {
+    max-width: 100%;
+  }
 }
 #screen {
   width: 100%;
@@ -59,6 +65,11 @@
   text-align: center;
   cursor: pointer;
   color: black;
+  height: 3rem;
+  font-size: 2rem;
+  border-radius: 5px;
+  box-shadow: none;
+  margin-top: 15px;
 }
 .clear {
   background-color: red;

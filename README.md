@@ -36,4 +36,12 @@ note: this is a linear calculator I'm still working on this project in pair with
 
 ---
 
+1.20v:
+
+1- add zero
+
+2- fixed some styling
+
+---
+
 link to Live Demo : https://bundybujet.github.io/Calculator/
